@@ -1,0 +1,13 @@
+numbers = [10, 20, 30, 40]
+
+sorted_list = True
+
+for i in range(len(numbers) - 1):
+    if numbers[i] > numbers[i + 1]:
+        sorted_list = False
+        break
+
+if sorted_list:
+    print("List is Sorted")
+else:
+    print("List is Not Sorted")
